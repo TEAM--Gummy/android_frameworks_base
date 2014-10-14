@@ -1228,7 +1228,7 @@ public final class Settings {
          * with that name.  Note that internally setting values are always
          * stored as strings, so this function converts the given value to a
          * string (1 or 0) before storing it.
-         * 
+         *
          * @param cr The ContentResolver to access.
          * @param name The name of the setting to modify.
          * @param value The new value for the setting.
@@ -3498,7 +3498,7 @@ public final class Settings {
 
         /**
          * Key to store Torch state.
-         * @hide 
+         * @hide
          */
         public static final String TORCH_STATE = "torch_state";
 
@@ -3956,7 +3956,7 @@ public final class Settings {
                 "notification_clock_1",
                 "notification_clock_2",
         };
-        
+
         /**
          * @hide
          */
@@ -5157,6 +5157,12 @@ public final class Settings {
          * @hide
          */
         public static final String ADB_PORT = "adb_port";
+
+        /**
+         * The hostname for this device
+	     * @hide
+         */
+        public static final String DEVICE_HOSTNAME = "device_hostname";
 
         /**
          * Setting to allow mock locations and location provider status to be injected into the
