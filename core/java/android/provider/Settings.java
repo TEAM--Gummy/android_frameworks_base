@@ -1228,7 +1228,7 @@ public final class Settings {
          * with that name.  Note that internally setting values are always
          * stored as strings, so this function converts the given value to a
          * string (1 or 0) before storing it.
-         * 
+         *
          * @param cr The ContentResolver to access.
          * @param name The name of the setting to modify.
          * @param value The new value for the setting.
@@ -3498,7 +3498,7 @@ public final class Settings {
 
         /**
          * Key to store Torch state.
-         * @hide 
+         * @hide
          */
         public static final String TORCH_STATE = "torch_state";
 
@@ -3898,6 +3898,12 @@ public final class Settings {
         public static final String LOCKSCREEN_NOTIFICATIONS_EXCLUDED_APPS = "lockscreen_notifications_excluded_apps";
 
         /**
+         * Set a custom notification background color
+         * @hide
+         */
+        public static final String LOCKSCREEN_NOTIFICATIONS_COLOR = "lockscreen_notifications_color";
+
+        /**
          * Battery warning preferences
          *
          * 0 = show dialog + play sound (default)
@@ -3956,7 +3962,7 @@ public final class Settings {
                 "notification_clock_1",
                 "notification_clock_2",
         };
-        
+
         /**
          * @hide
          */
